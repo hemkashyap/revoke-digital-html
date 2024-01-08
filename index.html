@@ -1,143 +1,702 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revoke Digital</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-    <div class="navbar navbar-sticky navbar-glass">
-        <div class="navbar-start">
-            <a class="navbar-item">Revoke Digital</a>
+
+    <header>
+        <div class="head-sec h-[84px]">
+            <div class="navbar-sticky navbar-glass navbar px-0">
+                <div class="container">
+                    <div class="head-inner">
+                        <div class="flex">
+                            <div class="navbar-start">
+                                <a class="navbar-item">
+                                    <span class="lg:hidden">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                            viewBox="0 0 126 123" fill="none">
+                                            <path
+                                                d="M68.5867 37.6931H21.9466L0 -0.000115898H46.6401L47.7333 1.86655L68.5867 37.6931Z"
+                                                fill="url(#paint0_linear_4_243)" />
+                                            <path
+                                                d="M67.5468 47.7466L24.0801 122.227L1.78688 82.5201L1.72021 82.4133L21.5202 47.7466H67.5468Z"
+                                                fill="url(#paint1_linear_4_243)" />
+                                            <path
+                                                d="M117.734 122.093L82.7605 122.373L82.3871 121.72L59.5605 82.5202L59.1738 81.84L76.7605 51.7202L94.6939 82.5202L99.2939 90.4267L117.734 122.093Z"
+                                                fill="url(#paint2_linear_4_243)" />
+                                            <mask id="mask0_4_243" style="mask-type:luminance"
+                                                maskUnits="userSpaceOnUse" x="58" y="0" width="68" height="81">
+                                                <path
+                                                    d="M125.747 41.4399V41.4534L125.467 41.9599L104.84 80.1599L58.1602 1.20954e-05H101.787C102.533 1.28001 103.373 2.7734 104.347 4.4534C109.32 13.0667 117.147 26.5999 125.747 41.4399Z"
+                                                    fill="white" />
+                                            </mask>
+                                            <g mask="url(#mask0_4_243)">
+                                                <path
+                                                    d="M125.747 41.4399V41.4534L125.467 41.9599L104.84 80.1599L58.1602 1.20954e-05H101.787C102.533 1.28001 103.373 2.7734 104.347 4.4534C109.32 13.0667 117.147 26.5999 125.747 41.4399Z"
+                                                    fill="url(#paint3_linear_4_243)" />
+                                            </g>
+                                            <defs>
+                                                <linearGradient id="paint0_linear_4_243" x1="0" y1="18.8532"
+                                                    x2="68.5857" y2="18.8532" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#86CF41" />
+                                                    <stop offset="0.994413" stop-color="#50C064" />
+                                                    <stop offset="1" stop-color="#50C064" />
+                                                </linearGradient>
+                                                <linearGradient id="paint1_linear_4_243" x1="1.72021" y1="84.9866"
+                                                    x2="67.5448" y2="84.9866" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#86CF41" />
+                                                    <stop offset="0.994413" stop-color="#50C064" />
+                                                    <stop offset="1" stop-color="#50C064" />
+                                                </linearGradient>
+                                                <linearGradient id="paint2_linear_4_243" x1="59.1738" y1="87.0401"
+                                                    x2="117.734" y2="87.0401" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#86CF41" />
+                                                    <stop offset="0.994413" stop-color="#50C064" />
+                                                    <stop offset="1" stop-color="#50C064" />
+                                                </linearGradient>
+                                                <linearGradient id="paint3_linear_4_243" x1="58.1602" y1="40.08"
+                                                    x2="125.74" y2="40.08" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#86CF41" />
+                                                    <stop offset="0.994413" stop-color="#50C064" />
+                                                    <stop offset="1" stop-color="#50C064" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="navbar-end">
+                                <div class="nav-menu hidden">
+                                    <a class="navbar-item">Hello</a>
+                                    <a class="navbar-item">About Us</a>
+                                    <a class="navbar-item">Services</a>
+                                    <a class="navbar-item">Contact Us</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="btn btn-primary">Client Login</a>
+                                    <label for="drawer-left" class="py-2.5 pl-2.5">
+                                        <i class="h-[3px] w-8 bg-primary block"></i>
+                                        <i class="h-[3px] w-5 bg-primary block my-1"></i>
+                                        <i class="h-[3px] w-2.5 bg-primary block"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="navbar-end">
-            <a class="navbar-item">Home</a>
-            <a class="navbar-item">About Us</a>
-            <a class="navbar-item">Services</a>
-            <a class="navbar-item">Contact Us</a>
-            <a class="btn btn-primary">Client Login</a>
+        <input type="checkbox" id="drawer-left" class="drawer-toggle" />
+
+        <label class="overlay" for="drawer-left"></label>
+        <div class="drawer">
+            <div class="drawer-content pt-10 flex flex-col h-full px-1 bg-side-bar-bg">
+                <label for="drawer-left" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 z-[2]">✕</label>
+                <div>
+                    <aside class="sidebar h-full justify-start max-w-full">
+                        <section class="sidebar-title items-center p-4">
+                            <a href="/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 129 128"
+                                    fill="none">
+                                    <path
+                                        d="M95.0066 0.093306H33.8306C15.4 0.093306 0.459961 15.0267 0.459961 33.4533V94.64C0.459961 113.067 15.4 128 33.8306 128H95.0066C113.437 128 128.376 113.067 128.376 94.64V33.4533C128.376 15.0267 113.437 0.093306 95.0066 0.093306Z"
+                                        fill="#211D1D" />
+                                    <path
+                                        d="M68.2505 48.2933H36.9812L22.2759 23.04H53.5385L54.2665 24.28L68.2505 48.2933Z"
+                                        fill="white" />
+                                    <path
+                                        d="M67.5545 55.04L38.4145 104.973L23.4745 78.3466H23.4705L23.4292 78.28L36.7039 55.04H67.5545Z"
+                                        fill="white" />
+                                    <path
+                                        d="M101.194 104.88L77.7505 105.053L77.4985 104.627L62.1998 78.3466L61.9385 77.8933L73.7251 57.7067L85.7505 78.3466L88.8318 83.6533L101.194 104.88Z"
+                                        fill="white" />
+                                    <path
+                                        d="M106.561 50.8134V50.8267L106.373 51.16L92.5466 76.7734L61.2612 23.04H90.5079C91.0012 23.8934 91.5719 24.8934 92.2186 26.0134C95.5519 31.8 100.799 40.8667 106.561 50.8134Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <div class="flex flex-col ml-2">
+                                <span>Revoke Digital</span>
+                                <span class="text-xs font-normal text-content2">Music is feeling</span>
+                            </div>
+                        </section>
+                        <div class="divider my-0"></div>
+                        <section class="sidebar-content h-fit min-h-[20rem] overflow-visible">
+                            <nav class="menu rounded-md">
+                                <section class="menu-section px-4">
+                                    <div class="menu-items">
+                                        <a href="/">
+                                            <div class="menu-item">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px"
+                                                    height="20px">
+                                                    <path
+                                                        d="M 12 2.0996094 L 1 12 L 4 12 L 4 21 L 11 21 L 11 15 L 13 15 L 13 21 L 20 21 L 20 12 L 23 12 L 12 2.0996094 z M 12 4.7910156 L 18 10.191406 L 18 11 L 18 19 L 15 19 L 15 13 L 9 13 L 9 19 L 6 19 L 6 10.191406 L 12 4.7910156 z" />
+                                                </svg>
+                                                <span>Home</span>
+                                            </div>
+                                        </a>
+                                        <a href="/">
+                                            <div class="menu-item">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20px"
+                                                    height="20px">
+                                                    <path
+                                                        d="M 2 6 L 2 26 L 7 26 L 7 31.09375 L 8.625 29.78125 L 13.34375 26 L 30 26 L 30 6 Z M 4 8 L 28 8 L 28 24 L 12.65625 24 L 12.375 24.21875 L 9 26.90625 L 9 24 L 4 24 Z M 15 10 L 15 12 L 17 12 L 17 10 Z M 15 14 L 15 22 L 17 22 L 17 14 Z" />
+                                                </svg>
+                                                <span>About Us</span>
+                                            </div>
+                                        </a>
+
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" id="menu-1" class="menu-toggle" />
+                                                <label class="menu-item justify-between" for="menu-1">
+                                                    <div class="flex gap-2 items-center">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                                            viewBox="0 0 600 600" fill="none">
+                                                            <path
+                                                                d="M0 600H150V450H0V600ZM450 600H600V450H450V600ZM0 150H150V0H0V150ZM450 0V150H600V0H450ZM225 150H375V0H225V150ZM225 600H375V450H225V600ZM450 375H600V225H450V375ZM225 375H375V225H225V375ZM0 375H150V225H0V375Z"
+                                                                fill="black" />
+                                                        </svg>
+                                                        <span>Services</span>
+                                                    </div>
+
+                                                    <span class="menu-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                            viewBox="0 0 20 20" fill="currentColor">
+                                                            <path fill-rule="evenodd"
+                                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                </label>
+
+                                                <div class="menu-item-collapse">
+                                                    <div class="min-h-0">
+                                                        <a href="/services/#music-distribution"
+                                                            class="menu-item ml-7">Music Distribution</a>
+                                                        <a href="/services/#marketing"
+                                                            class="menu-item ml-7">Marketing</a>
+                                                        <a href="/services/#youtube-content-id"
+                                                            class="menu-item ml-7">Youtube Content Id</a>
+                                                        <a href="/services/#royalties-licenses"
+                                                            class="menu-item ml-7">Royalties & Licenses</a>
+                                                        <a href="/services/#promotions"
+                                                            class="menu-item ml-7">Promotions</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href="/">
+                                            <div class="menu-item">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"
+                                                    viewBox="0 0 24 24" version="1.1">
+
+                                                    <title />
+
+                                                    <g fill="none" fill-rule="evenodd" id="页面-1" stroke="none"
+                                                        stroke-width="1">
+
+                                                        <g id="导航图标" transform="translate(-251.000000, -207.000000)">
+
+                                                            <g id="编组" transform="translate(251.000000, 207.000000)">
+
+                                                                <rect fill="#FFFFFF" fill-opacity="0.01"
+                                                                    fill-rule="nonzero" height="24" id="矩形" width="24"
+                                                                    x="0" y="0" />
+
+                                                                <path
+                                                                    d="M18,16 C20.20915,16 22,14.20915 22,12 C22,9.79085 20.20915,8 18,8"
+                                                                    id="路径" />
+
+                                                                <path
+                                                                    d="M18,16 L18,16 C20.20915,16 22,14.20915 22,12 C22,9.79085 20.20915,8 18,8"
+                                                                    id="路径" stroke="#212121" stroke-linejoin="round"
+                                                                    stroke-width="1.5" />
+
+                                                                <path
+                                                                    d="M6,8 C3.79086,8 2,9.79085 2,12 C2,14.20915 3.79086,16 6,16"
+                                                                    id="路径" />
+
+                                                                <path
+                                                                    d="M6,8 C3.79086,8 2,9.79085 2,12 C2,14.20915 3.79086,16 6,16 L6,16"
+                                                                    id="路径" stroke="#212121" stroke-linejoin="round"
+                                                                    stroke-width="1.5" />
+
+                                                                <path
+                                                                    d="M6,16 L6,15.75 L6,14.5 L6,12 L6,8 C6,4.68629 8.6863,2 12,2 C15.3137,2 18,4.68629 18,8 L18,16 C18,19.3137 15.3137,22 12,22"
+                                                                    id="路径" stroke="#212121" stroke-linecap="round"
+                                                                    stroke-linejoin="round" stroke-width="1.5" />
+
+                                                            </g>
+
+                                                        </g>
+
+                                                    </g>
+
+                                                </svg>
+                                                <span>Contact Us</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </section>
+                            </nav>
+                        </section>
+                    </aside>
+                </div>
+                <div class="h-full flex flex-row justify-end items-end gap-2">
+                    <button class="w-full btn btn-primary">Client Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section
+        class="relative flex flex-col items-center bg-heroBg pt-5 pb-10 overflow-hidden after:content-[''] after:absolute after:top-0 after:bottom-0 after:right-0 after:left-0 after:bg-mobileViewBannerBg after:w-full after:h-full h-full">
+        <div>
+            <div class="container">
+                <div class="relative z-[2]">
+                    <div class="bannerbg relative -left-[4px]">
+                        <img src="./images/home-banner.png" alt="" class="w-full" />
+                    </div>
+                    <div
+                        class="flex flex-col items-center pb-0 pt-8 text-center absolute top-[50%] -translate-y-[50%] left-0 right-0 w-full sm:pb-16 lg:pb-32 lg:pt-32">
+                        <p class="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">Revoke Digital</p>
+
+                        <h1 class="mb-8 text-5xl font-bold text-black font-nexaBold">Sell Your Music
+                            <br>Worldwide
+                        </h1>
+
+                        <p class="mb-8 leading-relaxed text-gray-500 md:mb-12 xl:text-lg">
+                            Get your music on Spotify, Apple Music, Wynk, Hungama, YouTube, JioSaavn, Instagram and
+                            more. <br>
+                            Keep 100% ownership of your music and stay in control of your career.
+                        </p>
+
+                        <div class="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
+
+                            <a href="#" class="btn btn-outline-primary sm:px-[50px]">Start
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-white py-10 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <!-- text - start -->
+            <div class="mb-10 md:mb-16">
+                <h2 class="mb-2 text-center text-2xl font-bold text-gray-800 font-nexaBold md:mb-6 lg:text-3xl">FAQ's
+                </h2>
+
+                <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.</p>
+            </div>
+            <!-- text - end -->
+            <div class="accordion-group accordion-group-hover">
+                <div class="accordion">
+                    <input type="checkbox" id="toggle-9" class="accordion-toggle" />
+                    <label for="toggle-9" class="accordion-title">
+                        <span>Pay once. Your music in stores forever.</span>
+                        <span class="text-sm text-content3 font-normal">With iMusician you get truly unlimited music
+                            distribution.</span>
+                    </label>
+                    <div class="accordion-content text-content2">
+                        <div class="min-h-0">With iMusician you get truly unlimited music distribution. You pay a single
+                            one-time fee to get your music online. With no annual fee to keep your songs in the stores —
+                            no matter which pricing plan you're on! Don't pay extra to leave a legacy.</div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <input type="checkbox" id="toggle-10" class="accordion-toggle" />
+                    <label for="toggle-10" class="accordion-title">
+                        <span>Widest coverage on the market</span>
+                        <span class="text-sm text-content3 font-normal">You keep 100% of your copyrights</span>
+                    </label>
+                    <div class="accordion-content">
+                        <div class="min-h-0">You keep 100% of your copyrights</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <section class="flex flex-col items-center">
-       
-  
-        <div class="flex max-w-xl flex-col items-center pb-0 pt-8 text-center sm:pb-16 lg:pb-32 lg:pt-32">
-          <p class="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">Very proud to introduce</p>
-  
-          <h1 class="mb-8 text-4xl font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">Revolutionary way to build the web</h1>
-  
-          <p class="mb-8 leading-relaxed text-gray-500 md:mb-12 xl:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares characteristics of real text.</p>
-  
-          <div class="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
-            <a href="#" class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Start now</a>
-  
-            <a href="#" class="inline-block rounded-lg border bg-white px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base">Take tour</a>
+
+    <section>
+        <div class="bg-serviceSec">
+            <div class="container">
+                <div>
+                    <div class="mb-[58px] sm:mb-[32px]">
+                        <h2
+                            class="text-[2rem] font-nexaBold  text-dark_blue font-black text-center capitalize xl:text-[42px] lg:text-[32px] md:text-[36px] md:leading-[1.3em] md:normal-case">
+                            Our <span class="text-primary">Services</span></h2>
+                    </div>
+                    <div>
+                        <div class="flex -m-[5px] flex-wrap -mx-[3px]">
+                            <div class="w-1/2 mb-[10px] sm:mb-[6px]">
+                                <a href="https://dev2.projectstatus.info/madina-peace-project/join-our-research-team/"
+                                    target="_self">
+                                    <div
+                                        class="flex justify-center rounded-lg h-full px-[15px] py-[42px] mx-[5px] mb-[10px] shadow-serviceSec flex-col bg-white xl:px-[20px] sm:mx-[3px] sm:px-[16px]">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="w-[44px] h-8 mb-3 inline-flex items-center justify-center text-white flex-shrink-0">
+                                                <img src="https://dev2.projectstatus.info/madina-peace-project/wp-content/uploads/2023/09/book.svg"
+                                                    alt="">
+                                            </div>
+                                            <h2
+                                                class="wayBoxTitle text-dark_blue leading-[1.2em] text-[16px] title-font font-extrabold text-center">
+                                                Music <br>Distribution</h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="w-1/2 mb-[10px] sm:mb-[6px]">
+                                <a href="https://dev2.projectstatus.info/madina-peace-project/become-a-supporter/"
+                                    target="_self">
+                                    <div
+                                        class="flex justify-center rounded-lg h-full px-[15px] py-[42px] mx-[5px] mb-[10px] shadow-serviceSec flex-col bg-white xl:px-[20px] sm:mx-[3px] sm:px-[16px]">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="w-[44px] h-8 mb-3 inline-flex items-center justify-center text-white flex-shrink-0">
+                                                <img src="https://dev2.projectstatus.info/madina-peace-project/wp-content/uploads/2023/09/support.svg"
+                                                    alt="">
+                                            </div>
+                                            <h2 class="wayBoxTitle text-dark_blue leading-[1.2em] text-[16px] title-font font-extrabold text-center"
+                                                style="height: 38.375px;">
+                                                Youtube <br>Content Id </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="w-1/2 mb-[10px] sm:mb-[6px]">
+                                <a href="https://dev2.projectstatus.info/madina-peace-project/become-a-partner/"
+                                    target="_self">
+                                    <div
+                                        class="flex justify-center rounded-lg h-full px-[15px] py-[42px] mx-[5px] mb-[10px] shadow-serviceSec flex-col bg-white xl:px-[20px] sm:mx-[3px] sm:px-[16px]">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="w-[44px] h-8 mb-3 inline-flex items-center justify-center text-white flex-shrink-0">
+                                                <img src="https://dev2.projectstatus.info/madina-peace-project/wp-content/uploads/2023/09/partner.svg"
+                                                    alt="">
+                                            </div>
+                                            <h2 class="wayBoxTitle text-dark_blue leading-[1.2em] text-[16px] title-font font-extrabold text-center"
+                                                style="height: 38.375px;">
+                                                Royalties & <br>Licenses</h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="w-1/2 mb-[10px] sm:mb-[6px]">
+                                <a href="https://dev2.projectstatus.info/madina-peace-project/become-a-volunteer/"
+                                    target="_self">
+                                    <div
+                                        class="flex justify-center rounded-lg h-full px-[15px] py-[42px] mx-[5px] mb-[10px] shadow-serviceSec flex-col bg-white xl:px-[20px] sm:mx-[3px] sm:px-[16px]">
+                                        <div class="flex flex-col items-center">
+                                            <div
+                                                class="w-[44px] h-8 mb-3 inline-flex items-center justify-center text-white flex-shrink-0">
+                                                <img src="https://dev2.projectstatus.info/madina-peace-project/wp-content/uploads/2023/09/Volunteer.svg"
+                                                    alt="">
+                                            </div>
+                                            <h2 class="wayBoxTitle text-dark_blue leading-[1.2em] text-[16px] title-font font-extrabold text-center"
+                                                style="height: 38.375px;">
+                                                Promotions</h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="text-center py-5 pb-10">
+                            <a href="/" class="btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-white py-6 pt-14 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+            <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">What others say about us
+            </h2>
+
+            <div class="relative">
+                <div class="swiper testimonialSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- quote - start -->
+                            <div class="px-4 py-6">
+                                <div class="flex flex-col items-center shadow-testiBox rounded-sm gap-4 p-5 sm:px-4 md:gap-6 lg:px-8">
+                                    <div class="text-center text-gray-600">“This is a section of some simple filler text,
+                                        also
+                                        known as placeholder text.”</div>
+    
+                                    <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
+                                        <div
+                                            class="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
+                                            <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
+                                                loading="lazy" alt="Photo by Radu Florin"
+                                                class="h-full w-full object-cover object-center" />
+                                        </div>
+    
+                                        <div>
+                                            <div
+                                                class="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">
+                                                John McCulling</div>
+                                            <p class="text-center text-sm text-gray-500 sm:text-left md:text-sm">CEO /
+                                                Datadrift
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- quote - end -->
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- quote - start -->
+                            <div class="px-4 py-6">
+                                <div class="flex flex-col items-center shadow-testiBox rounded-sm gap-4 p-5 sm:px-4 md:gap-6 lg:px-8">
+                                    <div class="text-center text-gray-600">“This is a section of some simple filler text,
+                                        also
+                                        known as placeholder text.”</div>
+    
+                                    <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
+                                        <div
+                                            class="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
+                                            <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
+                                                loading="lazy" alt="Photo by Radu Florin"
+                                                class="h-full w-full object-cover object-center" />
+                                        </div>
+    
+                                        <div>
+                                            <div
+                                                class="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">
+                                                John McCulling</div>
+                                            <p class="text-center text-sm text-gray-500 sm:text-left md:text-sm">CEO /
+                                                Datadrift
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- quote - end -->
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- quote - start -->
+                            <div class="px-4 py-6">
+                                <div class="flex flex-col items-center shadow-testiBox rounded-sm gap-4 p-5 sm:px-4 md:gap-6 lg:px-8">
+                                    <div class="text-center text-gray-600">“This is a section of some simple filler text,
+                                        also
+                                        known as placeholder text.”</div>
+    
+                                    <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
+                                        <div
+                                            class="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
+                                            <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112"
+                                                loading="lazy" alt="Photo by Radu Florin"
+                                                class="h-full w-full object-cover object-center" />
+                                        </div>
+    
+                                        <div>
+                                            <div
+                                                class="text-center text-sm font-bold text-indigo-500 sm:text-left md:text-base">
+                                                John McCulling</div>
+                                            <p class="text-center text-sm text-gray-500 sm:text-left md:text-sm">CEO /
+                                                Datadrift
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- quote - end -->
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination !-bottom-5"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="pb-16 pt-4 sm:pt-10 lg:pt-12">
+          <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <div class="grid grid-cols-2 gap-12 border-t border-gray-4 pt-10 md:grid-cols-4 lg:grid-cols-6 lg:gap-8 lg:pt-12">
+              <div class="col-span-full lg:col-span-2">
+                <!-- logo - start -->
+                <div class="mb-4 lg:-mt-2">
+                  <a href="/" class="inline-flex items-center gap-2 text-xl font-bold text-black md:text-2xl" aria-label="logo">
+                    <svg width="95" height="94" viewBox="0 0 95 94" class="h-auto w-5 text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M96 0V47L48 94H0V47L48 0H96Z" />
+                    </svg>
+      
+                    Flowrift
+                  </a>
+                </div>
+                <!-- logo - end -->
+      
+                <p class="text-gray-500 sm:pr-8">Filler text is dummy text which has no meaning however looks very similar to real text.</p>
+              </div>
+      
+              <!-- nav - start -->
+              <div>
+                <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Products</div>
+      
+                <nav class="flex flex-col gap-4">
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Overview</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Solutions</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Pricing</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Customers</a>
+                  </div>
+                </nav>
+              </div>
+              <!-- nav - end -->
+      
+              <!-- nav - start -->
+              <div>
+                <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Company</div>
+      
+                <nav class="flex flex-col gap-4">
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Investor Relations</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Jobs</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Press</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Blog</a>
+                  </div>
+                </nav>
+              </div>
+              <!-- nav - end -->
+      
+              <!-- nav - start -->
+              <div>
+                <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Support</div>
+      
+                <nav class="flex flex-col gap-4">
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Documentation</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Chat</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">FAQ</a>
+                  </div>
+                </nav>
+              </div>
+              <!-- nav - end -->
+      
+              <!-- nav - start -->
+              <div>
+                <div class="mb-4 font-bold uppercase tracking-widest text-gray-800">Legal</div>
+      
+                <nav class="flex flex-col gap-4">
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Terms of Service</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Privacy Policy</a>
+                  </div>
+      
+                  <div>
+                    <a href="#" class="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Cookie settings</a>
+                  </div>
+                </nav>
+              </div>
+              <!-- nav - end -->
+            </div>
           </div>
         </div>
-      </section>
-    <div class="popover">
-        <label class="popover-trigger my-2 btn btn-solid-primary" tabindex="0">Click</label>
-        <div class="popover-content popover-bottom-right" tabindex="0">
-            <div class="popover-arrow"></div>
-            <div class="p-4 text-sm">And here's some amazing content. It's very engaging. Right?</div>
+      
+        <div class="bg-gray-100">
+          <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <div class="flex items-center justify-between gap-4 py-8">
+              <span class="text-sm text-gray-400"> © 2021 - Present Flowrift. All rights reserved. </span>
+      
+              <!-- social - start -->
+              <div class="flex gap-4">
+                <a href="#" target="_blank" class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                  <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                  </svg>
+                </a>
+      
+                <a href="#" target="_blank" class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                  <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+      
+                <a href="#" target="_blank" class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                  <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                  </svg>
+                </a>
+      
+                <a href="#" target="_blank" class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
+                  <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                </a>
+              </div>
+              <!-- social - end -->
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="alert alert-success">
-        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4C12.96 4 4 12.96 4 24C4 35.04 12.96 44 24 44C35.04 44 44 35.04 44 24C44 12.96 35.04 4 24 4ZM18.58 32.58L11.4 25.4C10.62 24.62 10.62 23.36 11.4 22.58C12.18 21.8 13.44 21.8 14.22 22.58L20 28.34L33.76 14.58C34.54 13.8 35.8 13.8 36.58 14.58C37.36 15.36 37.36 16.62 36.58 17.4L21.4 32.58C20.64 33.36 19.36 33.36 18.58 32.58Z" fill="#00BA34" />
-        </svg>
-        <div class="flex flex-col">
-            <span>Plan</span>
-            <span class="text-content2">Unlimited Distribution Starting at ₹1299*/year</span>
-        </div>
-    </div>
-    <span class="badge badge-outline-primary">Default</span>
-<span class="badge badge-outline-secondary">Default</span>
-<span class="badge badge-outline-success">Default</span>
-<span class="badge badge-outline-warning">Default</span>
-<span class="badge badge-outline-error">Default</span>
-    <input type="checkbox" class="switch switch-primary" checked />
-<input type="checkbox" class="switch switch-secondary" checked />
-<input type="checkbox" class="switch switch-success" checked />
-<input type="checkbox" class="switch switch-error" checked />
-<input type="checkbox" class="switch switch-warning" checked />
-    <nav class="menu bg-gray-2 p-2 rounded-md">
-        <section class="menu-section">
-            <ul class="menu-items">
-                <li class="menu-item">General</li>
-                <li class="menu-item">Teams</li>
-                <li class="menu-item">Projects</li>
-                <li class="menu-item">Calendar</li>
-            </ul>
-        </section>
-    </nav>
-    <label class="btn btn-primary" for="modal-1">Open Modal</label>
-<input class="modal-state" id="modal-1" type="checkbox" />
-<div class="modal">
-	<label class="modal-overlay" for="modal-1"></label>
-	<div class="modal-content flex flex-col gap-5">
-		<label for="modal-1" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
-		<h2 class="text-xl">Modal title 1</h2>
-		<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum voluptate ratione dicta. Maxime cupiditate, est commodi consectetur earum iure, optio, obcaecati in nulla saepe maiores nobis iste quasi alias!</span>
-		<div class="flex gap-3">
-			<button class="btn btn-error btn-block">Delete</button>
+      </footer>
 
-			<button class="btn btn-block">Cancel</button>
-		</div>
-	</div>
-</div>
-<button class="btn btn-primary">Hello World!</button>
-    <div class="spinner-wave">
-        <div class="spinner-wave-dot"></div>
-        <div class="spinner-wave-dot"></div>
-        <div class="spinner-wave-dot"></div>
-        <div class="spinner-wave-dot"></div>
-    </div>
-    <input type="checkbox" id="drawer-left" class="drawer-toggle" />
-
-<label for="drawer-left" class="btn btn-primary">Open Left</label>
-<label class="overlay" for="drawer-left"></label>
-<div class="drawer">
-	<div class="drawer-content pt-10 flex flex-col h-full">
-		<label for="drawer-left" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</label>
-		<div>
-			<h2 class="text-xl font-medium">Create your account</h2>
-			<input class="input py-1.5 my-3" placeholder="Type here..." />
-		</div>
-		<div class="h-full flex flex-row justify-end items-end gap-2">
-			<button class="btn btn-ghost">Cancel</button>
-			<button class="btn btn-primary">Create</button>
-		</div>
-	</div>
-</div>
-    <h1>Revoke Digital</h1>
-    <button class="btn">Hello World!</button>
-    <div class="card">
-        <div class="card-body">
-            <h2 class="card-header">Maximizing Your Productivity at Work</h2>
-            <p class="text-content2">Are you looking to increase your productivity at work?</p>
-            <div class="card-footer">
-                <button class="btn-secondary btn">Learn More</button>
-            </div>
-        </div>
-    </div>
-    <div class="accordion-group">
-        <div class="accordion">
-            <input type="checkbox" id="accordion-1" class="accordion-toggle" />
-            <label for="accordion-1" class="accordion-title">Toggle Accordion 1</label>
-            <div class="accordion-content">
-                <div class="min-h-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla necessitatibus iusto laborum autem placeat aspernatur inventore eius deleniti reprehenderit? Numquam commodi totam mollitia quod</div>
-            </div>
-        </div>
-        <div class="accordion">
-            <input type="checkbox" id="accordion-2" class="accordion-toggle" />
-            <label for="accordion-2" class="accordion-title">Toggle Accordion 2</label>
-            <div class="accordion-content">
-                <div class="min-h-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla necessitatibus iusto laborum autem placeat aspernatur inventore eius deleniti reprehenderit? Numquam commodi totam mollitia quo</div>
-            </div>
-        </div>
-    </div>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".testimonialSwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 </body>
+
 </html>
