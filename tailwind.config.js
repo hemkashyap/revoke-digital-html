@@ -16,7 +16,7 @@ module.exports = {
     backgroundImage: {
       'heroBg':"linear-gradient(45deg, #d9fce2, #92f4a7)",
       'serviceSec':"linear-gradient(0deg, rgb(67 193 112 / 53%) 0%, rgba(29, 161, 243, 0.00) 100%)",
-	  'mobileViewBannerBg': "linear-gradient(5deg, rgb(255 255 255) 0%, rgba(71, 101, 103, 0.00) 100%)",
+	  'mobileViewBannerBg': "linear-gradient(0deg, rgb(252 252 252) 0%, rgba(71, 101, 103, 0.00) 100%)",
     },
     colors: {
 		'primary': "#43c170",
