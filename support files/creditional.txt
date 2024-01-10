@@ -1,13 +1,14 @@
-Token key - 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
+Token key - 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
 
-git clone https://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@github.com/hemmehra/revoke-digital-html.git
+git clone https://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@github.com/hemmehra/revoke-digital-html.git
 
-https://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@github.com/hemmehra/revoke-digital-html.git
+https://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@github.com/hemmehra/revoke-digital-html.git
+https://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@github.com/hemmehra/apni-dukan.git
 
-git clone https://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@github.com/<your account or organization>/<repo>.git
+git clone https://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@github.com/<your account or organization>/<repo>.git
 
 
-
+https://github.com/hemmehra/apni-dukan.git/
 
 bookmarks
 https://mail.google.com/mail/u/0/#inbox
